@@ -2,6 +2,14 @@
 
 This project is a simple **Todo App** built with **Vanilla JavaScript**, **HTML**, **CSS**, and **MongoDB**. The app allows you to create, edit, and delete todos, and stores them in a MongoDB database using **Mongoose**. The app provides a clean, intuitive interface, and the data is dynamically updated via API calls.
 
+### Todo List View
+
+![Todo List View](./todo1.png)
+
+### Add/Edit Todo Form
+
+![Add/Edit Todo Form](./todo2.png)
+
 ## Features
 
 - **Add Todos**: You can add new tasks to your todo list.
