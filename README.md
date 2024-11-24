@@ -48,10 +48,10 @@ Before you begin, ensure you have the following installed:
    
 3. Set up your MongoDB connection:
 
-- Create a .env file in the root directory.
-- Add your MongoDB URI:
-   ```bash
-   MONGO_URI=your_mongo_connection_string
+   - Create a .env file in the root directory.
+   - Add your MongoDB URI:
+      ```bash
+      MONGO_URI=your_mongo_connection_string
 
 5. Run server:
 
