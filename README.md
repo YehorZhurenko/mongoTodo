@@ -86,11 +86,14 @@ The backend is built with **Node.js** and **Express** to handle the API routes. 
 
 The todo items are stored in the MongoDB database using a Mongoose schema. Each todo has the following properties:
 
-```javascript
-const TodoSchema = new mongoose.Schema({
-  text: { type: String, required: true },
-  completed: { type: Boolean, default: false },
-});
+   ```javascript
+   const TodoSchema = new mongoose.Schema({
+     text: { type: String, required: true },
+     completed: { type: Boolean, default: false },
+   });
+
+
+
 
 
 
