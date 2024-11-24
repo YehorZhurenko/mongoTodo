@@ -58,3 +58,27 @@ Before you begin, ensure you have the following installed:
    ```bash
    http://localhost:3000
 
+6. Open the app in your browser:
+
+   ```bash
+   http://localhost:3000
+
+## How It Works
+
+### Frontend
+
+The frontend is built with **Vanilla JavaScript**, and it interacts with the backend API to handle the todo data. It includes:
+
+- **Todo List Rendering**: Displays the current todos fetched from the backend.
+- **Form for Adding Todos**: A simple input form where you can add new tasks.
+- **Edit/Delete Buttons**: Each todo has buttons to edit or delete the task.
+
+### Backend
+
+The backend is built with **Node.js** and **Express** to handle the API routes. It uses **Mongoose** for interacting with the MongoDB database.
+
+- **GET /todos**: Fetches all todos from the database.
+- **POST /todos**: Adds a new todo to the database.
+- **PUT /todos/:id**: Updates an existing todo.
+- **DELETE /todos/:id**: Deletes a todo from the database.
+
