@@ -1,23 +1,35 @@
-# To-Do App with MongoDB and Mongoose
+# Vanilla JS Todo App with MongoDB
 
-This is a simple To-Do application built with JavaScript, React for the front end, and MongoDB as the backend. The application allows users to create, edit, and delete to-dos, with all the to-do data being stored in a MongoDB database using Mongoose for database interaction.
+This project is a simple **Todo App** built with **Vanilla JavaScript**, **HTML**, **CSS**, and **MongoDB**. The app allows you to create, edit, and delete todos, and stores them in a MongoDB database using **Mongoose**. The app provides a clean, intuitive interface, and the data is dynamically updated via API calls.
 
 ## Features
-- **Add a To-Do**: You can add new to-do items to the list.
-- **Edit a To-Do**: You can update existing to-dos.
-- **Delete a To-Do**: You can remove a to-do item from the list.
-- **Persistent Storage**: All to-do items are stored in MongoDB, making the data persistent across sessions.
 
-## Tech Stack
-- **Frontend**: React.js
-- **Backend**: Node.js with Express
-- **Database**: MongoDB with Mongoose
-- **State Management**: React useState and useEffect
+- **Add Todos**: You can add new tasks to your todo list.
+- **Edit Todos**: You can modify the text of any existing todo.
+- **Delete Todos**: You can delete a todo from the list.
+- **Persistence**: Todos are saved to a MongoDB database, so they persist across page refreshes.
 
-## Installation
+## Technologies Used
 
-To run this project locally, follow these steps:
+- **HTML**: For the structure and layout of the page.
+- **CSS**: For styling the app.
+- **JavaScript**: For the logic and functionality of the app, including DOM manipulation and API requests.
+- **MongoDB**: For storing todos.
+- **Mongoose**: To interact with MongoDB in a structured way.
+- **Node.js/Express**: Backend server to handle API requests.
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/todo-app.git
+## How to Set Up and Run
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js** (with npm)
+- **MongoDB** (either local or using a cloud service like MongoDB Atlas)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
